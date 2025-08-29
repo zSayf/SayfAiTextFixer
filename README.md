@@ -146,6 +146,17 @@ Free to use, modify, and distribute. See LICENSE file for details.
 
 ---
 
+## 🙏 Acknowledgments
+
+This project was inspired by and builds upon the excellent work of:
+
+- **[ProofixAI](https://github.com/geek-updates/proofixai)** - Original concept and inspiration for AI-powered text correction
+- **Google Gemini AI** - Advanced language processing capabilities
+- **AutoHotkey Community** - Robust scripting platform and community support
+- **Microsoft Windows** - Primary deployment platform
+
+---
+
 ## 🙏 Support
 
 - 🐛 **Issues**: [GitHub Issues](https://github.com/zSayf/SayfAiTextFixer/issues)
