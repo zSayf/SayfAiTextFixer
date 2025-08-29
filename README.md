@@ -8,6 +8,16 @@
 
 > **🌟 Smart bilingual proofreading tool powered by Google Gemini AI**  
 > ✨ Corrects spelling & grammar in **English** and **Arabic** with a single hotkey ✨
+## 🎥 See It In Action
+
+### English Text Correction
+![English Demo 1](https://github.com/zSayf/SayfAiTextFixer/blob/main/Assests/1%23%20Eng-Test.gif)
+![English Demo 2](https://github.com/zSayf/SayfAiTextFixer/blob/main/Assests/2%23%20Eng-Test.gif)
+
+### Arabic Text Correction
+![Arabic Demo](https://github.com/zSayf/SayfAiTextFixer/blob/main/Assests/1%23%20Arabic-Test.gif)
+
+
 
 ## 🚀 What is Sayf Text Fixer?
 
