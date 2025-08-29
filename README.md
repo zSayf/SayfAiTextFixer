@@ -1,10 +1,9 @@
-# 🅰 Sayf Text Fixer (All-in-One)
+# 🅰 Sayf Text Fixer
 
 [![AutoHotkey v2](https://img.shields.io/badge/AutoHotkey-v2.0%2B-blue.svg)](https://www.autohotkey.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.0-green.svg)](https://github.com/zSayf/SayfAiTextFixer/releases)
-[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
 [![GitHub release](https://img.shields.io/github/release/zSayf/SayfAiTextFixer.svg)](https://github.com/zSayf/SayfAiTextFixer/releases)
+[![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
 [![GitHub stars](https://img.shields.io/github/stars/zSayf/SayfAiTextFixer.svg)](https://github.com/zSayf/SayfAiTextFixer/stargazers)
 
 > **🌟 Smart bilingual proofreading tool powered by Google Gemini AI**  
@@ -14,53 +13,36 @@
 
 **Sayf Text Fixer** is a lightweight desktop utility that brings AI-powered text correction to **any Windows application**. Select text anywhere and press a hotkey to instantly fix spelling and grammar errors using Google's Gemini AI.
 
-### ✨ Key Features
-- **📝 One Hotkey Fix** → Select text and press `Ctrl+Alt+S` to instantly correct it
-- **🌍 Bilingual Support** → Works with **English** & **Arabic**, or auto-detects language
-- **🎨 Dynamic Tray Icon** → Shows real-time status (Ready/Processing/Error)
-- **⚙️ Simple Settings** → Easy API key and language configuration
-- **📄 Processing Log** → Track your corrections with detailed history
-- **☁️ Gemini AI Powered** → Uses Google's fast `gemini-2.5-flash` model
-
----
-
-## ⚡ Features
-
-### 📝 Text Correction
-- **Grammar Fixing**: Corrects spelling and grammar errors while preserving meaning
-- **Smart Detection**: Automatically detects English or Arabic text
-- **Universal Support**: Works in any Windows application (Word, Notepad, browsers, etc.)
-
-### 🌍 Language Support
-- **English**: Full grammar and spelling correction
-- **Arabic**: Native Arabic text processing
-- **Auto-Detect**: Automatically identifies language
-
-### 🖥️ System Integration
-- **One Hotkey**: Single `Ctrl+Alt+S` for instant correction
-- **Tray Icon**: Real-time status indicator
-- **Smart Clipboard**: Automatic text replacement
+### ✨ Core Features
+- **📝 Universal Text Correction** → Works across all Windows applications
+- **🌍 Bilingual AI Processing** → Native support for English & Arabic with auto-detection
+- **⚡ One-Click Operation** → Single hotkey for instant text correction
+- **🎨 Smart Status System** → Real-time feedback through dynamic tray icons
+- **⚙️ Easy Configuration** → Simple setup and management interface
+- **📄 Activity Tracking** → Comprehensive correction history and analytics
 
 ---
 
 ## 📦 Installation
 
-### What You Need
-1. **Windows 10/11**
-2. **[AutoHotkey v2.0+](https://www.autohotkey.com/)** - Download and install first
-3. **Google Gemini API Key** - [Get yours free here](https://makersuite.google.com/app/apikey)
+### Prerequisites
+1. **Windows 10/11** - Any modern Windows version
+2. **[AutoHotkey v2.0+](https://www.autohotkey.com/download/ahk-v2.exe)** - Free scripting platform
+3. **Google Gemini API Key** - [Get yours free](https://makersuite.google.com/app/apikey)
+4. **Internet Connection** - Required for AI processing
 
 ### Quick Setup
-1. Download `Sayf Text Fixer (All-in-One).ahk`
-2. Right-click and select "Run"
-3. Enter your API key when prompted
-4. Start using with `Ctrl+Alt+S`!
+1. **Download** the latest release from [Releases](https://github.com/zSayf/SayfAiTextFixer/releases)
+2. **Install** AutoHotkey v2.0+ if not already installed
+3. **Run** the script file
+4. **Configure** your API key when prompted
+5. **Start using** with the configured hotkeys!
 
 ### Getting Your API Key
-1. Go to [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. Sign in with Google account
-3. Click "Create API Key"
-4. Copy and paste into Sayf Text Fixer
+1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Sign in with your Google account
+3. Create a new API key
+4. Copy and paste into Sayf Text Fixer settings
 
 ---
 
@@ -74,7 +56,7 @@
 
 ### Hotkeys
 | Key | Action |
-|-----|---------|
+|-----|----------|
 | `Ctrl+Alt+S` | Fix selected text |
 | `Ctrl+Alt+D` | View correction log |
 | `Ctrl+Alt+M` | Open settings |
@@ -82,7 +64,7 @@
 
 ### Tray Icon Guide
 | Icon | Meaning |
-|------|---------|
+|------|----------|
 | ![Gray](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-gray.ico) | Ready to use |
 | ![Green](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-green.ico) | API key is valid |
 | ![Red](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-red.ico) | API key missing/invalid |
@@ -102,6 +84,8 @@ All files are stored in your AppData folder:
 
 ---
 
+## 🔧 Support & Troubleshooting
+
 ## 🔧 Common Issues
 
 ### "API key not configured"
@@ -118,6 +102,12 @@ All files are stored in your AppData folder:
 ### Text not replacing
 - **Try**: Different application (Notepad, Word)
 - **Check**: Clipboard permissions
+
+### Get Help
+- **Documentation** - Check release notes for version-specific details
+- **Report Issues** - [GitHub Issues](https://github.com/zSayf/SayfAiTextFixer/issues)
+- **Feature Requests** - Open an issue with "Enhancement" label
+- **Community** - Star the repository to show support!
 
 ---
 
