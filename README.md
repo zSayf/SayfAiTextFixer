@@ -15,7 +15,7 @@
 
 ### Individual Demos
 ![English Demo 1](https://i.giphy.com/REeVvRkVDFezA8r0Rr.webp)
-![English Demo 2](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWE3MjQwb250dnV4YTR2d2F3OGh5bXcyeHlia2E5aHMxcXRjcjVuYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gI1fhmSdiaQvymHnfI/giphy.gif)
+![English Demo 2](https://i.giphy.com/gI1fhmSdiaQvymHnfI.webp)
 ![Arabic Demo](https://i.giphy.com/DjuPvo1hxQLuUI1TMo.webp)
 
 
