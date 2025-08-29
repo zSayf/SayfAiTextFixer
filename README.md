@@ -65,10 +65,10 @@
 ### Tray Icon Guide
 | Icon | Meaning |
 |------|----------|
-| ![Gray](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-gray.ico) | Ready to use |
-| ![Green](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-green.ico) | API key is valid |
-| ![Red](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-red.ico) | API key missing/invalid |
-| ![Yellow](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-yellow.ico) | Processing text |
+| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-gray.ico" width="64"> | Ready to use |
+| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-green.ico" width="64"> | API key is valid |
+| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-red.ico" width="64"> | API key missing/invalid |
+| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-yellow.ico" width="64"> | Processing text |
 
 ---
 
