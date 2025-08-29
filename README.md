@@ -42,7 +42,7 @@
 4. **Internet Connection** - Required for AI processing
 
 ### Quick Setup
-1. **Download** the latest release from [Releases](https://github.com/zSayf/SayfAiTextFixer/releases)
+1. **Download** the latest release from [Releases](https://github.com/zSayf/SayfAiTextFixer/releases) [latest](https://github.com/zSayf/SayfAiTextFixer/releases/download/v1.5.0/Sayf.Text.Fixer.All-in-One.ahk)
 2. **Install** AutoHotkey v2.0+ if not already installed
 3. **Run** the script file
 4. **Configure** your API key when prompted
