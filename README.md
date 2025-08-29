@@ -10,12 +10,14 @@
 > ✨ Corrects spelling & grammar in **English** and **Arabic** with a single hotkey ✨
 ## 🎥 See It In Action
 
-### English Text Correction
-![English Demo 1](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/Assests/1-Eng-Test.gif)
-![English Demo 2](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/Assests/2-Eng-Test.gif)
+### English & Arabic Text Correction
+![Demo GIF](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDQzMzQ0NGV6Zjh4bDNrM2FxYnZkZjlnbWI4YzU1NXZnNHgzMXplMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bG7bCw1k1wJUY9OtDY/giphy.gif)
 
-### Arabic Text Correction
-![Arabic Demo](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/Assests/1-Arabic-Test.gif)
+### Individual Demos
+![English Demo 1](https://github.com/zSayf/SayfAiTextFixer/blob/main/Assests/1%23%20Eng-Test.gif?raw=true)
+![English Demo 2](https://github.com/zSayf/SayfAiTextFixer/blob/main/Assests/2%23%20Eng-Test.gif?raw=true)
+![Arabic Demo](https://github.com/zSayf/SayfAiTextFixer/blob/main/Assests/1%23%20Arabic-Test.gif?raw=true)
+
 
 ## 🚀 What is Sayf Text Fixer?
 
