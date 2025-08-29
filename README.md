@@ -11,13 +11,11 @@
 ## 🎥 See It In Action
 
 ### English Text Correction
-![English Demo 1](https://github.com/zSayf/SayfAiTextFixer/blob/main/Assests/1%23%20Eng-Test.gif)
-![English Demo 2](https://github.com/zSayf/SayfAiTextFixer/blob/main/Assests/2%23%20Eng-Test.gif)
+![English Demo 1](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/Assests/1-Eng-Test.gif)
+![English Demo 2](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/Assests/2-Eng-Test.gif)
 
 ### Arabic Text Correction
-![Arabic Demo](https://github.com/zSayf/SayfAiTextFixer/blob/main/Assests/1%23%20Arabic-Test.gif)
-
-
+![Arabic Demo](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/Assests/1-Arabic-Test.gif)
 
 ## 🚀 What is Sayf Text Fixer?
 
