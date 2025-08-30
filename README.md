@@ -104,7 +104,7 @@
 
 1. **📥 Download Latest Release**
    - Visit [Releases](https://github.com/zSayf/SayfAiTextFixer/releases)
-   - Download the latest `.ahk` file **🚀 [Direct Download](https://github.com/zSayf/SayfAiTextFixer/releases/latest/download/Sayf-AI-Text-Fixer.ahk)**
+   - Download the latest `.ahk` file **🚀 [Direct Download](https://github.com/zSayf/SayfAiTextFixer/releases/latest/download/Sayf.Ai.Text.Fixer.ahk)**
 
 2. **⚙️ Install AutoHotkey**
    - Download [AutoHotkey v2.0+](https://www.autohotkey.com/download/ahk-v2.exe)
