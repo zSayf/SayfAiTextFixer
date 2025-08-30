@@ -1,4 +1,4 @@
-# 🅰 Sayf Text Fixer
+# 🅰 Sayf AI Text Fixer
 
 [![AutoHotkey v2](https://img.shields.io/badge/AutoHotkey-v2.0%2B-blue.svg)](https://www.autohotkey.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -6,162 +6,257 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
 [![GitHub stars](https://img.shields.io/github/stars/zSayf/SayfAiTextFixer.svg)](https://github.com/zSayf/SayfAiTextFixer/stargazers)
 
-> **🌟 Smart bilingual proofreading tool powered by Google Gemini AI**  
-> ✨ Corrects spelling & grammar in **English** and **Arabic** with a single hotkey ✨
+> **🌟 Enterprise-Grade AI-Powered Text Enhancement Tool**  
+> ✨ Professional bilingual text processing with **8 AI modes** for English & Arabic ✨
+
+---
+
 ## 🎥 See It In Action
 
-### English & Arabic Text Correction
+### Multi-Mode AI Text Processing
 ![Demo GIF](https://i.giphy.com/bG7bCw1k1wJUY9OtDY.webp)
 
-### Individual Demos
+### Language-Specific Demos
 ![English Demo 1](https://i.giphy.com/REeVvRkVDFezA8r0Rr.webp)
 ![English Demo 2](https://i.giphy.com/gI1fhmSdiaQvymHnfI.webp)
 ![Arabic Demo](https://i.giphy.com/DjuPvo1hxQLuUI1TMo.webp)
 
+---
 
-## 🚀 What is Sayf Text Fixer?
+## 🚀 What is Sayf AI Text Fixer?
 
-**Sayf Text Fixer** is a lightweight desktop utility that brings AI-powered text correction to **any Windows application**. Select text anywhere and press a hotkey to instantly fix spelling and grammar errors using Google's Gemini AI.
+**Sayf AI Text Fixer** is an enterprise-grade desktop automation tool that brings professional AI-powered text enhancement to **any Windows application**. With 8 specialized AI processing modes and advanced Windows integration, it transforms how you work with text across your entire system.
 
-### ✨ Core Features
-- **📝 Universal Text Correction** → Works across all Windows applications
-- **🌍 Bilingual AI Processing** → Native support for English & Arabic with auto-detection
-- **⚡ One-Click Operation** → Single hotkey for instant text correction
-- **🎨 Smart Status System** → Real-time feedback through dynamic tray icons
-- **⚙️ Easy Configuration** → Simple setup and management interface
-- **📄 Activity Tracking** → Comprehensive correction history and analytics
+### 🎯 Perfect For
+- **📚 Students** writing essays, reports, and academic papers
+- **💼 Professionals** composing emails, documents, and presentations
+- **✍️ Content Creators** polishing articles, blogs, and social media
+- **🌐 Anyone** who wants professional-quality text across all applications
+
+---
+
+## ✨ Core Features
+
+### 🎛️ **8 Professional AI Processing Modes**
+| Mode | Function | Perfect For |
+|------|----------|-------------|
+| 📝 **Fix** | Grammar & spelling correction | Quick proofreading |
+| ✨ **Improve** | Style & clarity enhancement | Professional writing |
+| ❓ **Answer** | AI-powered Q&A responses | Research assistance |
+| 📑 **Summarize** | Intelligent text summarization | Document analysis |
+| 🌍 **Translate** | Multi-language translation | International communication |
+| 🔍 **Simplify** | Complex → simple language | Educational content |
+| ➕ **Longer** | Text expansion & elaboration | Content development |
+| ➖ **Shorter** | Concise text condensation | Efficient communication |
+
+### 🏗️ **Enterprise-Grade Features**
+- **🚀 Windows Integration** → Auto-startup, registry management, multi-monitor support
+- **🌍 Advanced Bilingual Support** → English/Arabic with 20% threshold detection
+- **📊 Professional Logging** → JSON-structured logs with 5MB automatic rotation
+- **🛡️ Self-Healing Configuration** → Automatically repairs corrupted settings
+- **🔐 Enhanced Security** → Injection-proof prompts, persistent API validation
+- **🎨 Dynamic UI System** → Real-time status feedback and visual mode editor
+
+### ⚡ **Performance & Reliability**
+- **📱 Universal Compatibility** → Works across all Windows applications
+- **⌨️ One-Click Operation** → Single hotkey for instant processing
+- **🔄 Smart Caching** → Persistent API validation reduces unnecessary calls
+- **💾 Robust Error Handling** → Enterprise-grade try-catch-finally patterns
+- **🎯 Memory Optimized** → Efficient resource management and cleanup
 
 ---
 
 ## 📦 Installation
 
-### Prerequisites
-1. **Windows 10/11** - Any modern Windows version
-2. **[AutoHotkey v2.0+](https://www.autohotkey.com/download/ahk-v2.exe)** - Free scripting platform
-3. **Google Gemini API Key** - [Get yours free](https://makersuite.google.com/app/apikey)
-4. **Internet Connection** - Required for AI processing
+### 📋 Prerequisites
+| Component | Requirement |
+|-----------|-----------|
+| **Operating System** | Windows 10/11 (64-bit recommended) |
+| **Runtime Platform** | [AutoHotkey v2.0+](https://www.autohotkey.com/download/ahk-v2.exe) |
+| **AI Processing** | Google Gemini API Key ([Get Free](https://makersuite.google.com/app/apikey)) |
+| **Network** | Internet connection for AI processing |
+| **Storage** | 50MB available disk space |
 
-### Quick Setup
-1. **Download** the latest release from [Releases](https://github.com/zSayf/SayfAiTextFixer/releases) **[Click Here For Direct Download](https://github.com/zSayf/SayfAiTextFixer/releases/download/v1.5.0/Sayf.Text.Fixer.All-in-One.ahk)**
-2. **Install** **[AutoHotkey v2.0+](https://www.autohotkey.com/download/ahk-v2.exe)** if not already installed
-3. **Run** the script file
-4. **Configure** your API key when prompted
-5. **Start using** with the configured hotkeys!
+### 🚀 Quick Setup Guide
 
-### Getting Your API Key
-1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. Sign in with your Google account
-3. Create a new API key
-4. Copy and paste into Sayf Text Fixer settings
+1. **📁 Download Latest Release**
+   - Visit [Releases](https://github.com/zSayf/SayfAiTextFixer/releases)
+   - Download the latest `.ahk` file
+
+2. **⚙️ Install AutoHotkey**
+   - Download [AutoHotkey v2.0+](https://www.autohotkey.com/download/ahk-v2.exe)
+   - Run installer and follow setup wizard
+
+3. **🔑 Get Your API Key**
+   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+   - Sign in with Google account
+   - Create new API key and copy it
+
+4. **🚀 Launch & Configure**
+   - Right-click downloaded `.ahk` file → "Run with AutoHotkey"
+   - Enter API key when prompted
+   - Configure language and preferences
+   - Enable auto-startup for convenience
 
 ---
 
 ## 🎯 How to Use
 
-### Basic Operation
-1. **Select text** in any app (Word, browser, etc.)
-2. **Press `Ctrl+Alt+S`**
-3. **Wait for processing** (yellow tray icon)
-4. **See corrected text** replace your selection automatically
+### ⌨️ **Primary Hotkeys**
+| Hotkey | Function | Description |
+|--------|----------|-------------|
+| **`Ctrl+Alt+S`** | **Smart Text Processing** | Opens mode selection for selected text |
+| **`Ctrl+Alt+D`** | **Professional Log Viewer** | View processing history and analytics |
+| **`Ctrl+Alt+M`** | **Advanced Settings** | Configure API, modes, and preferences |
+| **`Esc`** | **Hide Tooltips** | Dismiss any active tooltip displays |
 
-### Hotkeys
-| Key | Action |
-|-----|----------|
-| `Ctrl+Alt+S` | Fix selected text |
-| `Ctrl+Alt+D` | View correction log |
-| `Ctrl+Alt+M` | Open settings |
-| `Esc` | Hide tooltip |
+### 🎛️ **Basic Workflow**
+1. **Select text** in any application (Word, browser, email, etc.)
+2. **Press `Ctrl+Alt+S`** to open mode selection
+3. **Choose processing mode** (Fix, Improve, Summarize, etc.)
+4. **Wait for AI processing** (visual feedback via tray icon)
+5. **Review results** as text is automatically replaced
 
-### Tray Icon Guide
-| Icon | Meaning |
-|------|----------|
-| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-gray.ico" width="64"> | Ready to use |
-| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-green.ico" width="64"> | API key is valid |
-| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-red.ico" width="64"> | API key missing/invalid |
-| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-yellow.ico" width="64"> | Processing text |
+### 🎨 **Visual Status System**
+| Icon | Status | Meaning |
+|------|--------|----------|
+| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-gray.ico" width="32"> | **Ready** | System ready for text processing |
+| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-green.ico" width="32"> | **Valid** | API key validated and working |
+| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-red.ico" width="32"> | **Error** | API key missing, invalid, or network error |
+| <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-yellow.ico" width="32"> | **Processing** | AI actively processing your text |
 
 ---
 
-## 📁 File Locations
+## 🛠️ **Configuration & Management**
 
-All files are stored in your AppData folder:
+### 📁 **File Locations**
+All configuration and logs are stored in your user profile:
 ```
 %AppData%\SayfTextFixer\
-├── SayfTextFixer_config.ini    # Your settings
-├── SayfTextFixer_log.txt       # Correction history  
-└── icons\                      # Tray icons
+├── SayfTextFixer_config.ini    # User preferences and settings
+├── SayfTextFixer_log.txt       # Processing history (JSON format)
+└── icons\                      # Cached tray icon resources
 ```
 
----
-
-## 🔧 Support & Troubleshooting
-
-## 🔧 Common Issues
-
-### "API key not configured"
-- **Fix**: Press `Ctrl+Alt+M` and enter your Gemini API key
-- **Get key**: [Google AI Studio](https://makersuite.google.com/app/apikey)
-
-### "No text selected"
-- **Fix**: Make sure text is highlighted before pressing `Ctrl+Alt+S`
-
-### Red tray icon (Invalid API)
-- **Check**: API key is at least 10 characters
-- **Test**: Use "Test API Key" button in settings
-
-### Text not replacing
-- **Try**: Different application (Notepad, Word)
-- **Check**: Clipboard permissions
-
-### Get Help
-- **Documentation** - Check release notes for version-specific details
-- **Report Issues** - [GitHub Issues](https://github.com/zSayf/SayfAiTextFixer/issues)
-- **Feature Requests** - Open an issue with "Enhancement" label
-- **Community** - Star the repository to show support!
+### ⚙️ **Advanced Configuration**
+- **🎛️ AI Mode Management** → Enable/disable specific processing modes
+- **🚀 Auto-Startup** → Configure Windows startup integration
+- **📊 Logging Preferences** → Set log rotation and detail levels
+- **🌐 Language Settings** → Configure English/Arabic/Auto-detection
+- **🔐 API Management** → Test and validate Gemini API keys
 
 ---
 
-## 🤝 Contributing
+## 🤖 **AI Models & Technology**
 
-Want to help improve Sayf Text Fixer?
+### **Supported AI Models**
+- **Gemini 2.5 Flash** → Ultra-fast processing for quick corrections
+- **Gemini 2.5 Pro** → Maximum accuracy for complex text analysis
 
-- 🐛 **Report bugs**: [GitHub Issues](https://github.com/zSayf/SayfAiTextFixer/issues)
-- ✨ **Suggest features**: Open an issue with "Feature Request" label
-- 💻 **Submit code**: Fork and create pull requests
-- 🌍 **Add languages**: Help expand language support
-
-### For Developers
-- Uses **AutoHotkey v2.0+**
-- Follows zero-error development patterns
-- JSON-based logging system
-- Self-healing configuration
+### **Language Capabilities**
+- **English** → Native processing with advanced grammar rules
+- **Arabic** → Full RTL support with cultural context awareness
+- **Auto-Detection** → Smart language identification (20% threshold)
+- **Bilingual Text** → Seamless handling of mixed-language content
 
 ---
 
-## 📄 License
+## 🔧 **Troubleshooting**
 
+### 🔍 **Common Issues**
+
+#### **"API key not configured"**
+- **Solution**: Press `Ctrl+Alt+M` → Enter your Gemini API key
+- **Get Key**: [Google AI Studio](https://makersuite.google.com/app/apikey)
+
+#### **"No text selected"**
+- **Solution**: Highlight text before pressing `Ctrl+Alt+S`
+- **Tip**: Works in any application that supports text selection
+
+#### **Red tray icon (Invalid API)**
+- **Check**: API key is at least 10 characters long
+- **Test**: Use "Test API Key" button in settings dialog
+- **Verify**: Key has proper Gemini API permissions
+
+#### **Processing mode not appearing**
+- **Solution**: Press `Ctrl+Alt+M` → Enable desired modes in Mode Editor
+- **Default**: Fix and Improve modes are enabled by default
+
+#### **Auto-startup not working**
+- **Solution**: Run application as administrator once to register startup
+- **Alternative**: Manually enable in Settings → Auto-Startup
+
+### 📞 **Getting Help**
+- **📖 Documentation** → Check [Release Notes](https://github.com/zSayf/SayfAiTextFixer/releases) for version-specific details
+- **🐛 Bug Reports** → [GitHub Issues](https://github.com/zSayf/SayfAiTextFixer/issues)
+- **💡 Feature Requests** → [GitHub Discussions](https://github.com/zSayf/SayfAiTextFixer/discussions)
+- **🤝 Community Support** → Star the repository and join discussions!
+
+---
+
+## 🤝 **Contributing**
+
+### 🌟 **Ways to Contribute**
+- **🐛 Report Bugs** → [Create detailed issue reports](https://github.com/zSayf/SayfAiTextFixer/issues)
+- **✨ Suggest Features** → Open feature requests with "Enhancement" label
+- **💻 Submit Code** → Fork repository and create pull requests
+- **🌍 Language Support** → Help expand multilingual capabilities
+- **📚 Documentation** → Improve guides, tutorials, and examples
+
+### 👨‍💻 **For Developers**
+- **Language**: AutoHotkey v2.0+ with enterprise-grade patterns
+- **Architecture**: Modular design with proper error boundaries
+- **Standards**: Zero-error development with comprehensive validation
+- **Logging**: JSON-based structured logging system
+- **Configuration**: Self-healing INI management with validation
+
+---
+
+## 📊 **Technical Specifications**
+
+### **System Requirements**
+- **Memory Usage**: ~20MB active RAM
+- **CPU Impact**: Minimal background processing
+- **Network**: HTTPS API calls to Google Gemini
+- **Storage**: 50MB for application and logs
+- **Permissions**: User-level (admin for startup registration)
+
+### **Security Features**
+- **API Key Protection** → Secure local storage with validation
+- **Injection Prevention** → Prompt sanitization and validation
+- **Privacy Compliance** → No data retention beyond session logs
+- **Network Security** → Encrypted HTTPS communication only
+
+---
+
+## 📄 **License & Credits**
+
+### **License**
 **MIT License** © 2024 [@zSayf](https://github.com/zSayf)
 
-Free to use, modify, and distribute. See LICENSE file for details.
+Free to use, modify, and distribute. See [LICENSE](LICENSE) file for complete terms.
+
+### **Acknowledgments**
+- **[ProofixAI](https://github.com/geek-updates/proofixai)** → Original inspiration for AI-powered text correction
+- **[cJson.ahk](https://github.com/G33kDude/cJson.ahk)** → JSON processing library by @G33kDude
+- **Google Gemini AI** → Advanced language processing capabilities
+- **AutoHotkey Community** → Robust scripting platform and community support
 
 ---
 
-## 🙏 Acknowledgments
+## 🌟 **Support the Project**
 
-This project was inspired by and builds upon the excellent work of:
+### **Show Your Support**
+- ⭐ **Star this repository** to help others discover the tool
+- 🐛 **Report issues** to help improve stability and features
+- 💡 **Share ideas** for new features and improvements
+- 🌍 **Spread the word** about Sayf AI Text Fixer
 
-- **[ProofixAI](https://github.com/geek-updates/proofixai)** - Original concept and inspiration for AI-powered text correction
-- **Google Gemini AI** - Advanced language processing capabilities
-- **AutoHotkey Community** - Robust scripting platform and community support
-- **Microsoft Windows** - Primary deployment platform
-
----
-
-## 🙏 Support
-
-- 🐛 **Issues**: [GitHub Issues](https://github.com/zSayf/SayfAiTextFixer/issues)
-- 📧 **Contact**: [GitHub Profile](https://github.com/zSayf)
+### **Contact & Community**
+- **📧 Project Lead** → [@zSayf](https://github.com/zSayf)
+- **🐛 Issues** → [GitHub Issues](https://github.com/zSayf/SayfAiTextFixer/issues)
+- **💬 Discussions** → [GitHub Discussions](https://github.com/zSayf/SayfAiTextFixer/discussions)
 
 ---
 
-⭐ **If this tool helps you write better, please star the repository!** ⭐
+**🎉 Transform your text processing experience with professional AI-powered enhancement. Download the latest release and join thousands of users already improving their writing with Sayf AI Text Fixer!**
