@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
 [![GitHub stars](https://img.shields.io/github/stars/zSayf/SayfAiTextFixer.svg)](https://github.com/zSayf/SayfAiTextFixer/stargazers)
 
-> **🌟 Enterprise-Grade AI-Powered Text Enhancement Tool**  
+> **🌟 AI-Powered Text Enhancement Tool**  
 > ✨ Professional bilingual text processing with **8 AI modes** for English & Arabic ✨
 
 ---
@@ -21,11 +21,13 @@
 ![English Demo 2](https://i.giphy.com/gI1fhmSdiaQvymHnfI.webp)
 ![Arabic Demo](https://i.giphy.com/DjuPvo1hxQLuUI1TMo.webp)
 
+**🚀 Ready to get started?** [Jump to Installation Guide](#-installation)
+
 ---
 
 ## 🚀 What is Sayf AI Text Fixer?
 
-**Sayf AI Text Fixer** is an enterprise-grade desktop automation tool that brings professional AI-powered text enhancement to **any Windows application**. With 8 specialized AI processing modes and advanced Windows integration, it transforms how you work with text across your entire system.
+**Sayf AI Text Fixer** is a professional desktop automation tool that brings AI-powered text enhancement to **any Windows application**. With 8 specialized AI processing modes and advanced Windows integration, it transforms how you work with text across your entire system.
 
 ### 🎯 Perfect For
 - **📚 Students** writing essays, reports, and academic papers
@@ -49,7 +51,7 @@
 | ➕ **Longer** | Text expansion & elaboration | Content development |
 | ➖ **Shorter** | Concise text condensation | Efficient communication |
 
-### 🏗️ **Enterprise-Grade Features**
+### 🏗️ **Advanced Features**
 - **🚀 Windows Integration** → Auto-startup, registry management, multi-monitor support
 - **🌍 Advanced Bilingual Support** → English/Arabic with 20% threshold detection
 - **📊 Professional Logging** → JSON-structured logs with 5MB automatic rotation
@@ -61,8 +63,29 @@
 - **📱 Universal Compatibility** → Works across all Windows applications
 - **⌨️ One-Click Operation** → Single hotkey for instant processing
 - **🔄 Smart Caching** → Persistent API validation reduces unnecessary calls
-- **💾 Robust Error Handling** → Enterprise-grade try-catch-finally patterns
+- **💾 Robust Error Handling** → Professional try-catch-finally patterns
 - **🎯 Memory Optimized** → Efficient resource management and cleanup
+
+---
+
+## 📈 **Evolution Comparison: v1.5.0 → v2.9.1**
+
+### **v1.5.0 (Initial Release)**
+- ✅ Basic text correction
+- ✅ Simple bilingual support
+- ✅ Single processing mode
+- ✅ ~100KB lightweight script
+
+### **v2.9.1 (Advanced Edition)**
+- 🔥 **8 AI Processing Modes** (vs 1)
+- 🔥 **Windows Registry Integration** (Auto-startup)
+- 🔥 **Professional Logging System** (JSON + rotation)
+- 🔥 **Advanced Error Handling** (Professional-grade)
+- 🔥 **Persistent API Validation** (Smart caching)
+- 🔥 **Self-Healing Configuration** (Auto-repair)
+- 🔥 **Multi-Monitor Support** (Enhanced GUI)
+- 🔥 **Security Enhancements** (Injection-proof)
+- 🔥 **5,418 Lines of Code** (vs ~1,000)
 
 ---
 
@@ -70,7 +93,7 @@
 
 ### 📋 Prerequisites
 | Component | Requirement |
-|-----------|-----------|
+|-----------|-------------|
 | **Operating System** | Windows 10/11 (64-bit recommended) |
 | **Runtime Platform** | [AutoHotkey v2.0+](https://www.autohotkey.com/download/ahk-v2.exe) |
 | **AI Processing** | Google Gemini API Key ([Get Free](https://makersuite.google.com/app/apikey)) |
@@ -79,9 +102,10 @@
 
 ### 🚀 Quick Setup Guide
 
-1. **📁 Download Latest Release**
+1. **📥 Download Latest Release**
    - Visit [Releases](https://github.com/zSayf/SayfAiTextFixer/releases)
    - Download the latest `.ahk` file
+   - **🚀 [Direct Download - Latest Version](https://github.com/zSayf/SayfAiTextFixer/releases/latest/download/Sayf-AI-Text-Fixer.ahk)**
 
 2. **⚙️ Install AutoHotkey**
    - Download [AutoHotkey v2.0+](https://www.autohotkey.com/download/ahk-v2.exe)
@@ -119,7 +143,7 @@
 
 ### 🎨 **Visual Status System**
 | Icon | Status | Meaning |
-|------|--------|----------|
+|------|--------|---------|
 | <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-gray.ico" width="32"> | **Ready** | System ready for text processing |
 | <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-green.ico" width="32"> | **Valid** | API key validated and working |
 | <img src="https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/main/ICONS/A-red.ico" width="32"> | **Error** | API key missing, invalid, or network error |
@@ -204,7 +228,7 @@ All configuration and logs are stored in your user profile:
 - **📚 Documentation** → Improve guides, tutorials, and examples
 
 ### 👨‍💻 **For Developers**
-- **Language**: AutoHotkey v2.0+ with enterprise-grade patterns
+- **Language**: AutoHotkey v2.0+ with professional patterns
 - **Architecture**: Modular design with proper error boundaries
 - **Standards**: Zero-error development with comprehensive validation
 - **Logging**: JSON-based structured logging system
@@ -259,4 +283,4 @@ Free to use, modify, and distribute. See [LICENSE](LICENSE) file for complete te
 
 ---
 
-**🎉 Transform your text processing experience with professional AI-powered enhancement. Download the latest release and join thousands of users already improving their writing with Sayf AI Text Fixer!**
+**🎉 Transform your text processing experience with professional AI-powered enhancement. Download the latest release and join users already improving their writing with Sayf AI Text Fixer**
