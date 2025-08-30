@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 zSayf
+Copyright (c) 2024-2025 zSayf (Sayf AI Text Fixer Project)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,42 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+================================================================================
+                              ADDITIONAL TERMS
+================================================================================
+
+Project Name: Sayf AI Text Fixer
+Description:  AI-powered bilingual text correction tool using Google Gemini API
+Language:     AutoHotkey v2.0+
+Platform:     Microsoft Windows 10/11
+
+THIRD-PARTY DEPENDENCIES:
+- AutoHotkey v2.0+ (GPLv2 License) - https://www.autohotkey.com/
+- Google Gemini API (Google Terms of Service) - https://ai.google.dev/
+- JSON Library by G33kDude (MIT License) - https://github.com/G33kDude/cJson.ahk
+
+API USAGE DISCLAIMER:
+This software integrates with Google Gemini API. Users are responsible for:
+- Obtaining their own API keys from Google AI Studio
+- Complying with Google's Terms of Service and Usage Policies
+- Any costs associated with API usage
+- Data privacy and security when using cloud AI services
+
+PRIVACY NOTICE:
+- Text processed through this software is sent to Google's Gemini API
+- No text content is stored locally beyond session logs (user configurable)
+- Users should review Google's privacy policy for cloud AI services
+- Sensitive or confidential text should not be processed without proper authorization
+
+ATTRIBUTION:
+This project was inspired by and builds upon:
+- ProofixAI (https://github.com/geek-updates/proofixai) - Original concept
+- AutoHotkey Community - Scripting platform and community support
+
+For support, bug reports, or contributions, visit:
+https://github.com/zSayf/SayfAiTextFixer
+
+================================================================================
+                                END OF LICENSE
+================================================================================
