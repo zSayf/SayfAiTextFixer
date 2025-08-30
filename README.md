@@ -51,6 +51,7 @@
 | ➕ **Longer** | Text expansion & elaboration | Content development |
 | ➖ **Shorter** | Concise text condensation | Efficient communication |
 
+![8 Professional AI Processing Modes](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/refs/heads/main/Screenshot.png)
 ### 🏗️ **Advanced Features**
 - **🚀 Windows Integration** → Auto-startup, registry management, multi-monitor support
 - **🌍 Advanced Bilingual Support** → English/Arabic with 20% threshold detection
