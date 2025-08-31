@@ -1,0 +1,172 @@
+name: ✨ Feature Request
+description: Suggest a new feature or enhancement for Sayf AI Text Fixer
+title: "[FEATURE] "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! 🚀
+        
+        **Before submitting, please:**
+        - Search existing feature requests to avoid duplicates
+        - Consider if this fits with the tool's core purpose
+        - Think about how this would benefit other users
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🎯 Problem Statement
+      description: What problem does this feature solve?
+      placeholder: |
+        Describe the problem or limitation you're experiencing.
+        Example: "I often need to convert text to different writing styles but have to use multiple tools..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 💡 Proposed Solution
+      description: Describe your ideal solution
+      placeholder: |
+        Describe how you envision this feature working.
+        Be as specific as possible about the user experience.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 📂 Feature Category
+      description: What type of feature is this?
+      options:
+        - New AI Processing Mode
+        - User Interface Enhancement
+        - Language/Localization
+        - Performance Improvement
+        - Integration Feature
+        - Configuration/Settings
+        - Accessibility Feature
+        - Security Enhancement
+        - Other
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: ⚡ Priority Level
+      description: How important is this feature to you?
+      options:
+        - Low - Nice to have
+        - Medium - Would improve my workflow
+        - High - Significantly impacts my usage
+        - Critical - Blocking my use of the tool
+
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: 🎭 Use Cases
+      description: Describe specific scenarios where this feature would be useful
+      placeholder: |
+        Example scenarios:
+        1. When writing academic papers, I need to...
+        2. For social media content, it would help if...
+        3. In professional emails, this would allow me to...
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Alternative Solutions
+      description: What workarounds do you currently use?
+      placeholder: |
+        How do you currently solve this problem?
+        What other tools or methods do you use?
+        Why aren't these alternatives sufficient?
+
+  - type: checkboxes
+    id: target-audience
+    attributes:
+      label: 👥 Target Audience
+      description: Who would benefit from this feature?
+      options:
+        - label: Students (academic writing)
+        - label: Professionals (business communication)
+        - label: Content creators (articles, blogs)
+        - label: Developers (code documentation)
+        - label: Arabic speakers specifically
+        - label: Bilingual users (Arabic + English)
+        - label: All users
+
+  - type: textarea
+    id: technical-details
+    attributes:
+      label: 🔧 Technical Considerations
+      description: Any technical details or constraints to consider
+      placeholder: |
+        - Implementation ideas
+        - API requirements
+        - Performance considerations
+        - Compatibility concerns
+        - UI/UX suggestions
+
+  - type: dropdown
+    id: complexity
+    attributes:
+      label: 📊 Implementation Complexity
+      description: How complex do you think this feature would be to implement?
+      options:
+        - Simple - Minor UI change or setting
+        - Moderate - New functionality but straightforward
+        - Complex - Requires significant development
+        - Major - Would need architectural changes
+        - Not sure
+
+  - type: textarea
+    id: mockup
+    attributes:
+      label: 🎨 Mockup or Example
+      description: Visual representation or example of the feature
+      placeholder: |
+        - Screenshots or mockups
+        - Example text transformations
+        - UI layout suggestions
+        - Links to similar features in other tools
+
+  - type: checkboxes
+    id: implementation
+    attributes:
+      label: 🛠️ Implementation Willingness
+      description: Are you interested in helping implement this?
+      options:
+        - label: I would like to implement this myself
+        - label: I can help with testing and feedback
+        - label: I can provide documentation or examples
+        - label: I would prefer someone else implements it
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 📝 Additional Context
+      description: Any other information about this feature request
+      placeholder: |
+        - Related issues or discussions
+        - Similar features in other tools
+        - Research or articles supporting this need
+        - Community feedback you've received
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: ✅ Checklist
+      description: Please confirm before submitting
+      options:
+        - label: I have searched existing feature requests for duplicates
+          required: true
+        - label: This feature aligns with the tool's purpose
+          required: true
+        - label: I have provided clear use cases and benefits
+          required: true
+        - label: I understand this is a request, not a guarantee
+          required: true
