@@ -83,7 +83,7 @@ body:
     id: autohotkey
     attributes:
       label: ⚡ AutoHotkey Version
-      description: Which AutoHotkey version? (Check by running: AutoHotkey.exe /version)
+      description: Which AutoHotkey version? (Check by running AutoHotkey.exe /version)
       placeholder: e.g., v2.0.11
     validations:
       required: true
