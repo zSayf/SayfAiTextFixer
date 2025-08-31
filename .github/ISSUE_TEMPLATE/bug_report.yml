@@ -126,19 +126,6 @@ body:
         Paste the last few lines around the time the error occurred
       render: text
 
-  - type: checkboxes
-    id: system-config
-    attributes:
-      label: 🔧 System Configuration
-      description: Please check all that apply to your system
-      options:
-        - label: Multiple monitors setup
-        - label: High DPI display
-        - label: Auto-startup enabled
-        - label: Using VPN or proxy
-        - label: Antivirus software active
-        - label: Corporate/managed Windows environment
-
   - type: textarea
     id: additional-context
     attributes:
