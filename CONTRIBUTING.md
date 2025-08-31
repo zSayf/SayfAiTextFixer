@@ -16,7 +16,7 @@ We welcome contributions from the community and are grateful for your help in ma
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/SayfAiTextFixer.git
+   git clone https://github.com/zSayf/SayfAiTextFixer.git
    cd SayfAiTextFixer
    ```
 3. **Test the current version** to understand the functionality
@@ -183,5 +183,6 @@ Contributors are recognized in:
 3. **Pick an issue** or propose a new feature
 4. **Start coding** following our guidelines
 5. **Submit your PR** and await review
+
 
 **Thank you for helping make Sayf AI Text Fixer better for everyone! 🎉**
