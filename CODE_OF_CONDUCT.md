@@ -4,7 +4,7 @@
 
 We as members, contributors, and leaders pledge to make participation in our
 community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, level of experience, education, socio-economic status,
+size, visible or invisible disability, ethnicity, level of experience, education, socio-economic status,
 nationality, personal appearance, race, religion.
 
 We pledge to act and interact in ways that contribute to an open, welcoming,
@@ -76,3 +76,4 @@ For answers to common questions about this code of conduct, see the FAQ at
 https://www.contributor-covenant.org/faq. Translations are available at
 
 https://www.contributor-covenant.org/translations.
+
