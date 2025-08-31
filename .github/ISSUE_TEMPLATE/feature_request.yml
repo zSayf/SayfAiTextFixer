@@ -34,8 +34,6 @@ body:
       placeholder: |
         Describe how you envision this feature working.
         Be as specific as possible about the user experience.
-    validations:
-      required: true
 
   - type: dropdown
     id: category
@@ -75,16 +73,6 @@ body:
         2. For social media content, it would help if...
         3. In professional emails, this would allow me to...
 
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: 🔄 Alternative Solutions
-      description: What workarounds do you currently use?
-      placeholder: |
-        How do you currently solve this problem?
-        What other tools or methods do you use?
-        Why aren't these alternatives sufficient?
-
   - type: checkboxes
     id: target-audience
     attributes:
@@ -98,52 +86,6 @@ body:
         - label: Arabic speakers specifically
         - label: Bilingual users (Arabic + English)
         - label: All users
-
-  - type: textarea
-    id: technical-details
-    attributes:
-      label: 🔧 Technical Considerations
-      description: Any technical details or constraints to consider
-      placeholder: |
-        - Implementation ideas
-        - API requirements
-        - Performance considerations
-        - Compatibility concerns
-        - UI/UX suggestions
-
-  - type: dropdown
-    id: complexity
-    attributes:
-      label: 📊 Implementation Complexity
-      description: How complex do you think this feature would be to implement?
-      options:
-        - Simple - Minor UI change or setting
-        - Moderate - New functionality but straightforward
-        - Complex - Requires significant development
-        - Major - Would need architectural changes
-        - Not sure
-
-  - type: textarea
-    id: mockup
-    attributes:
-      label: 🎨 Mockup or Example
-      description: Visual representation or example of the feature
-      placeholder: |
-        - Screenshots or mockups
-        - Example text transformations
-        - UI layout suggestions
-        - Links to similar features in other tools
-
-  - type: checkboxes
-    id: implementation
-    attributes:
-      label: 🛠️ Implementation Willingness
-      description: Are you interested in helping implement this?
-      options:
-        - label: I would like to implement this myself
-        - label: I can help with testing and feedback
-        - label: I can provide documentation or examples
-        - label: I would prefer someone else implements it
 
   - type: textarea
     id: additional-context
