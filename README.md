@@ -1,4 +1,4 @@
-# 🅰 Sayf AI Text Fixer
+# 🅰 Sayf AI Text Fixer v3.1.0
 
 [![AutoHotkey v2](https://img.shields.io/badge/AutoHotkey-v2.0%2B-blue.svg)](https://www.autohotkey.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -61,6 +61,8 @@
 - **🛡️ Self-Healing Configuration** → Automatically repairs corrupted settings
 - **🔒 Enhanced Security** → Injection-proof prompts, persistent API validation
 - **🎨 Dynamic UI System** → Real-time status feedback and visual mode editor
+- **🔧 Critical Stability Fixes** → HttpRequestManager parameter order bug resolution
+- **📈 Enhanced Debugging** → Comprehensive parameter validation and error prevention
 
 ### ⚡ **Performance & Reliability**
 - **📱 Universal Compatibility** → Works across all Windows applications
@@ -71,7 +73,7 @@
 
 ---
 
-## 📈 **Evolution Timeline: v1.5.0 → v3.0.0**
+## 📈 **Evolution Timeline: v1.5.0 → v3.1.0**
 
 ### **v1.5.0 (Initial Release)**
 - ✅ Basic text correction
@@ -97,6 +99,13 @@
 - 🌟 **Case-Sensitive Security** → More robust API key validation
 - 🌟 **Resource Management** → Enhanced cleanup with leak prevention
 - 🌟 **Performance Optimization** → 50% faster response times
+
+### **v3.1.0 (Critical Stability Release)**
+- 🔧 **Critical Bug Fixes** → Fixed HttpRequestManager parameter order issues
+- ✅ **Arabic Processing Recovery** → Restored Arabic text processing functionality
+- 🛡️ **Enhanced Parameter Validation** → Automatic detection of parameter order mistakes
+- 📊 **Advanced Debugging Infrastructure** → Comprehensive logging and error prevention
+- 🔒 **Security Improvements** → Enhanced HTTPS validation with detailed error reporting
 
 ---
 
@@ -293,4 +302,4 @@ Free to use, modify, and distribute. See [LICENSE](LICENSE) file for complete te
 
 ---
 
-**🎉 Transform your text processing experience with professional AI-powered enhancement. Download the latest v3.0.0 release and join users already improving their writing with enhanced validation and better user experience!**
+**🎉 Transform your text processing experience with professional AI-powered enhancement. Download the latest v3.1.0 release and join users already improving their writing!**
