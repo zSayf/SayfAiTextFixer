@@ -1,4 +1,4 @@
-# 🅰 Sayf AI Text Fixer v3.1.0
+# 🅰 Sayf AI Text Fixer v4.0.8
 
 [![AutoHotkey v2](https://img.shields.io/badge/AutoHotkey-v2.0%2B-blue.svg)](https://www.autohotkey.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/zSayf/SayfAiTextFixer.svg)](https://github.com/zSayf/SayfAiTextFixer/stargazers)
 
 > **🌟 AI-Powered Text Enhancement Tool**  
-> ✨ Professional bilingual text processing with **8 AI modes** for English & Arabic ✨
+> ✨ Professional bilingual text processing with **18 AI modes** for English & Arabic ✨
 
 ---
 
@@ -27,7 +27,7 @@
 
 ## 🚀 What is Sayf AI Text Fixer?
 
-**Sayf AI Text Fixer** is a professional desktop automation tool that brings AI-powered text enhancement to **any Windows application**. With 8 specialized AI processing modes, enhanced validation systems, and advanced Windows integration, it transforms how you work with text across your entire system.
+**Sayf AI Text Fixer** is a professional desktop automation tool that brings AI-powered text enhancement to **any Windows application**. With **18 specialized AI processing modes**, enhanced validation systems, mode-specific feedback, and advanced Windows integration, it transforms how you work with text across your entire system.
 
 ### 🎯 Perfect For
 - **📚 Students** writing essays, reports, and academic papers
@@ -39,29 +39,40 @@
 
 ## ✨ Core Features
 
-### 🎛️ **8 Professional AI Processing Modes**
+### 🎛️ **18 Professional AI Processing Modes**
 | Mode | Function | Perfect For |
 |------|----------|-------------|
 | 📝 **Fix** | Grammar & spelling correction | Quick proofreading |
 | ✨ **Improve** | Style & clarity enhancement | Professional writing |
-| ❓ **Answer** | AI-powered Q&A responses | Research assistance |
+| ✏️ **Rewrite** | Complete text restructuring | Content variation |
+| ❓ **Answer** | Enhanced AI Q&A with Classical Arabic | Research assistance |
 | 📑 **Summarize** | Intelligent text summarization | Document analysis |
 | 🌍 **Translate** | Multi-language translation | International communication |
 | 🔍 **Simplify** | Complex → simple language | Educational content |
 | ➕ **Longer** | Text expansion & elaboration | Content development |
 | ➖ **Shorter** | Concise text condensation | Efficient communication |
+| 🤖 **Prompter** | AI prompt enhancement | Prompt engineering |
+| 👔 **Formalize** | Professional tone conversion | Business communication |
+| 😊 **Casual** | Informal tone adaptation | Social media |
+| 📧 **Email** | Email formatting optimization | Professional correspondence |
+| 📋 **Bullets** | Bullet point conversion | Presentations |
+| 🎯 **Focus** | Key points extraction | Executive summaries |
+| 🔬 **Technical** | Technical writing enhancement | Documentation |
+| 🎨 **Creative** | Creative writing improvement | Content creation |
+| 🎓 **Academic** | Academic writing standards | Research papers |
 
-![8 Professional AI Processing Modes](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/refs/heads/main/Screenshot.png)
+![18 Professional AI Processing Modes](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/refs/heads/main/Screenshot.png)
 
 ### 🏗️ **Advanced Features**
 - **🔐 Enhanced API Validation** → Real-time validation with persistent caching and case-sensitive checks
 - **🚀 Windows Integration** → Auto-startup, registry management, multi-monitor support
-- **🌍 Advanced Bilingual Support** → English/Arabic with 20% threshold detection
+- **🌍 Advanced Bilingual Support** → English/Arabic with 20% threshold detection & Classical Arabic enforcement
 - **📊 Professional Logging** → JSON-structured logs with 5MB automatic rotation
 - **🛡️ Self-Healing Configuration** → Automatically repairs corrupted settings
 - **🔒 Enhanced Security** → Injection-proof prompts, persistent API validation
 - **🎨 Dynamic UI System** → Real-time status feedback and visual mode editor
-- **🔧 Critical Stability Fixes** → HttpRequestManager parameter order bug resolution
+- **💬 Mode-Specific Feedback** → Contextual processing and success messages for all 18 modes
+- **🔧 Critical Stability** → HttpRequestManager parameter order bug resolution (v3.1.0)
 - **📈 Enhanced Debugging** → Comprehensive parameter validation and error prevention
 
 ### ⚡ **Performance & Reliability**
@@ -73,7 +84,7 @@
 
 ---
 
-## 📈 **Evolution Timeline: v1.5.0 → v3.1.0**
+## 📈 **Evolution Timeline: v1.5.0 → v4.0.8**
 
 ### **v1.5.0 (Initial Release)**
 - ✅ Basic text correction
@@ -106,6 +117,16 @@
 - 🛡️ **Enhanced Parameter Validation** → Automatic detection of parameter order mistakes
 - 📊 **Advanced Debugging Infrastructure** → Comprehensive logging and error prevention
 - 🔒 **Security Improvements** → Enhanced HTTPS validation with detailed error reporting
+
+### **v4.0.8 (Major Feature Expansion)** 🆕
+- 🚀 **18 AI Processing Modes** → Expanded from 8 to 18 total modes (+125% increase)
+- 🤖 **Enhanced Answer Mode** → Mixed language support with Classical Arabic enforcement
+- 💬 **Mode-Specific Feedback System** → Contextual messages for all 18 modes in English/Arabic
+- ✏️ **Advanced Rewrite Mode** → Sophisticated text restructuring with format preservation
+- 🎯 **All Modes Enabled by Default** → Optimal out-of-the-box experience
+- 📝 **10 New Specialized Modes** → Rewrite, Prompter, Formalize, Casual, Email, Bullets, Focus, Technical, Creative, Academic
+- 🌍 **Classical Arabic Support** → Enhanced Arabic processing with proper فصحى enforcement
+- 🏗️ **Enhanced Architecture** → 3 new functions, 867 new lines of code (+14% growth)
 
 ---
 
@@ -148,16 +169,16 @@
 ### ⌨️ **Primary Hotkeys**
 | Hotkey | Function | Description |
 |--------|----------|-------------|
-| **`Ctrl+Alt+S`** | **Smart Text Processing** | Opens mode selection for selected text |
+| **`Ctrl+Alt+S`** | **Smart Text Processing** | Opens mode selection for selected text (18 modes) |
 | **`Ctrl+Alt+D`** | **Professional Log Viewer** | View processing history and analytics |
 | **`Ctrl+Alt+M`** | **Advanced Settings** | Configure API, modes, and preferences |
 | **`Esc`** | **Hide Tooltips** | Dismiss any active tooltip displays |
 
 ### 🎛️ **Basic Workflow**
 1. **Select text** in any application (Word, browser, email, etc.)
-2. **Press `Ctrl+Alt+S`** to open mode selection
-3. **Choose processing mode** (Fix, Improve, Summarize, etc.)
-4. **Wait for AI processing** (visual feedback via tray icon)
+2. **Press `Ctrl+Alt+S`** to open mode selection with 18 options
+3. **Choose processing mode** (Fix, Improve, Rewrite, Email, Academic, etc.)
+4. **Wait for AI processing** (visual feedback via tray icon with mode-specific messages)
 5. **Review results** as text is automatically replaced
 
 ### 🎨 **Visual Status System**
@@ -182,7 +203,7 @@ All configuration and logs are stored in your user profile:
 ```
 
 ### ⚙️ **Advanced Configuration**
-- **🎛️ AI Mode Management** → Enable/disable specific processing modes
+- **🎛️ AI Mode Management** → Enable/disable specific processing modes (all 18 modes enabled by default)
 - **🚀 Auto-Startup** → Configure Windows startup integration
 - **📊 Logging Preferences** → Set log rotation and detail levels
 - **🌐 Language Settings** → Configure English/Arabic/Auto-detection
@@ -198,9 +219,51 @@ All configuration and logs are stored in your user profile:
 
 ### **Language Capabilities**
 - **English** → Native processing with advanced grammar rules
-- **Arabic** → Full RTL support with cultural context awareness
+- **Arabic** → Full RTL support with cultural context awareness and Classical Arabic (فصحى) enforcement
 - **Auto-Detection** → Smart language identification (20% threshold)
 - **Bilingual Text** → Seamless handling of mixed-language content
+
+### 💬 **Mode-Specific Feedback Examples**
+| Mode | Processing Message | Success Message |
+|------|-------------------|------------------|
+| **📝 Fix** | "📝 Fixing grammar..." | "✅ Grammar fixed" |
+| **✏️ Rewrite** | "✏️ Rewriting text..." | "✅ Text rewritten" |
+| **📧 Email** | "📧 Formatting email..." | "✅ Email formatted" |
+| **🎓 Academic** | "🎓 Converting to academic..." | "✅ Converted to academic" |
+
+---
+
+## 🎯 **Mode Quick Reference**
+
+### **Text Enhancement Modes**
+- **📝 Fix** → Grammar and spelling correction
+- **✨ Improve** → Style and clarity enhancement  
+- **✏️ Rewrite** → Complete text restructuring 🆕
+
+### **Communication Modes**
+- **👔 Formalize** → Professional tone conversion 🆕
+- **😊 Casual** → Informal adaptation 🆕
+- **📧 Email** → Email optimization 🆕
+
+### **Analysis Modes**
+- **❓ Answer** → Enhanced Q&A with Classical Arabic 🔥
+- **📑 Summarize** → Intelligent summarization
+- **🎯 Focus** → Key points extraction 🆕
+
+### **Format Modes**
+- **📋 Bullets** → Bullet point conversion 🆕
+- **🎓 Academic** → Academic standards 🆕
+- **🔬 Technical** → Technical writing 🆕
+
+### **Length Modes**
+- **➕ Longer** → Text expansion and elaboration
+- **➖ Shorter** → Concise condensation
+- **🔍 Simplify** → Complex to simple conversion
+
+### **Specialized Modes**
+- **🌍 Translate** → Multi-language translation
+- **🎨 Creative** → Creative enhancement 🆕
+- **🤖 Prompter** → AI prompt optimization 🆕
 
 ---
 
@@ -223,7 +286,7 @@ All configuration and logs are stored in your user profile:
 
 #### **Processing mode not appearing**
 - **Solution**: Press `Ctrl+Alt+M` → Enable desired modes in Mode Editor
-- **Default**: Fix and Improve modes are enabled by default
+- **Default**: All 18 modes are enabled by default in v4.0.8
 
 #### **Auto-startup not working**
 - **Solution**: Run application as administrator once to register startup
@@ -302,4 +365,4 @@ Free to use, modify, and distribute. See [LICENSE](LICENSE) file for complete te
 
 ---
 
-**🎉 Transform your text processing experience with professional AI-powered enhancement. Download the latest v3.1.0 release and join users already improving their writing!**
+**🎉 Transform your text processing experience with professional AI-powered enhancement featuring 18 specialized modes. Download the latest release and join users already improving their writing with enhanced bilingual support and mode-specific feedback!**
