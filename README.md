@@ -13,6 +13,8 @@
 
 ## 🎥 See It In Action
 
+
+
 ### Multi-Mode AI Text Processing
 ![Demo GIF](https://i.giphy.com/bG7bCw1k1wJUY9OtDY.webp)
 
@@ -20,6 +22,9 @@
 ![English Demo 1](https://i.giphy.com/REeVvRkVDFezA8r0Rr.webp)
 ![English Demo 2](https://i.giphy.com/gI1fhmSdiaQvymHnfI.webp)
 ![Arabic Demo](https://i.giphy.com/DjuPvo1hxQLuUI1TMo.webp)
+
+### Promter Mode
+![Promter Mode](https://i.giphy.com/xwnmKY71kcSrSb5TWo.webp)
 
 **🚀 Ready to get started?** [Jump to Installation Guide](#-installation)
 
