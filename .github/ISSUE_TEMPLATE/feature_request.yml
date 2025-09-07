@@ -41,14 +41,19 @@ body:
       label: 📂 Feature Category
       description: What type of feature is this?
       options:
-        - New AI Processing Mode
-        - User Interface Enhancement
-        - Language/Localization
+        - New AI Processing Mode (beyond current 18 modes)
+        - Enhancement to Existing Mode
+        - User Interface/UX Enhancement
+        - Language/Localization Support
         - Performance Improvement
-        - Integration Feature
-        - Configuration/Settings
+        - Integration Feature (other apps/services)
+        - Configuration/Settings Enhancement
         - Accessibility Feature
         - Security Enhancement
+        - API/Model Support (new AI providers)
+        - Export/Import Features
+        - Advanced Language Detection
+        - Workflow Automation
         - Other
 
   - type: dropdown
@@ -68,10 +73,13 @@ body:
       label: 🎭 Use Cases
       description: Describe specific scenarios where this feature would be useful
       placeholder: |
-        Example scenarios:
-        1. When writing academic papers, I need to...
-        2. For social media content, it would help if...
-        3. In professional emails, this would allow me to...
+        Example scenarios (be specific about current limitations):
+        1. When writing academic papers, I need to... (which current mode doesn't fully address)
+        2. For social media content, it would help if... (beyond current Casual mode)
+        3. In professional emails, this would allow me to... (enhancement to Email mode)
+        4. For technical documentation, I wish I could... (beyond current Technical mode)
+        5. When working with mixed languages, I need... (enhancement to current bilingual support)
+        6. For creative writing, it would be useful to... (beyond current Creative mode)
 
   - type: checkboxes
     id: target-audience
@@ -83,8 +91,13 @@ body:
         - label: Professionals (business communication)
         - label: Content creators (articles, blogs)
         - label: Developers (code documentation)
+        - label: Researchers (technical papers)
+        - label: Educators (teaching materials)
+        - label: Translators (multilingual content)
         - label: Arabic speakers specifically
         - label: Bilingual users (Arabic + English)
+        - label: Technical writers
+        - label: Social media managers
         - label: All users
 
   - type: textarea
@@ -97,6 +110,31 @@ body:
         - Similar features in other tools
         - Research or articles supporting this need
         - Community feedback you've received
+        - How this differs from/enhances current modes:
+          • Fix, Improve, Rewrite modes
+          • Answer, Summarize modes
+          • Translate, Simplify modes
+          • Longer, Shorter modes
+          • Prompter mode
+          • Formalize, Casual modes
+          • Email, Bullets modes
+          • Focus, Technical modes
+          • Creative, Academic modes
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: 🔧 Implementation Ideas (Optional)
+      description: Any thoughts on how this could be implemented?
+      placeholder: |
+        If you have technical ideas or suggestions:
+        - UI/UX considerations
+        - How it would integrate with existing modes
+        - API requirements or considerations
+        - Language-specific requirements
+        - Performance considerations
+        
+        Note: This is optional - just describe the need and we'll handle the technical details!
 
   - type: checkboxes
     id: checklist
