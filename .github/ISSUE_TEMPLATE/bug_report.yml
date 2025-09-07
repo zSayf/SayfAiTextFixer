@@ -59,11 +59,15 @@ body:
       label: 🔧 Version
       description: Which version of Sayf AI Text Fixer are you using?
       options:
-        - v2.9.1 (Latest)
+        - v4.0.8 (Latest)
+        - v3.1.0
+        - v3.0.0
+        - v2.9.1
         - v2.9.0
         - v2.0.x
         - v1.5.x
         - Other (specify in additional context)
+        - Development/Pre-release version
     validations:
       required: true
 
@@ -87,14 +91,25 @@ body:
       options:
         - Fix
         - Improve
+        - Rewrite
         - Answer
         - Summarize
         - Translate
         - Simplify
         - Longer
         - Shorter
+        - Prompter
+        - Formalize
+        - Casual
+        - Email
+        - Bullets
+        - Focus
+        - Technical
+        - Creative
+        - Academic
         - Not applicable
         - Multiple modes
+        - All modes affected
 
   - type: dropdown
     id: language
