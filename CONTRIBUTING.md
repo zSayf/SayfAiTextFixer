@@ -16,7 +16,7 @@ We welcome contributions from the community and are grateful for your help in ma
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/zSayf/SayfAiTextFixer.git
+   git clone https://github.com/YOUR_USERNAME/SayfAiTextFixer.git
    cd SayfAiTextFixer
    ```
 3. **Test the current version** to understand the functionality
@@ -63,19 +63,20 @@ Follow the project's coding guidelines in `AHK_V2_CODING_RULES.md`:
 ```
 feat: add new summarization mode for long texts
 fix: resolve multi-monitor GUI positioning issue  
-docs: update README with v2.9.1 features
+docs: update README with v4.5.0 features
 refactor: improve error handling in API manager
 ```
 
 ### 🧪 **Testing Guidelines**
 
 #### **Manual Testing Checklist**
-- [ ] Test all 8 AI processing modes
+- [ ] Test all 19 AI processing modes
 - [ ] Verify bilingual text handling (Arabic/English)
 - [ ] Test auto-startup functionality
 - [ ] Check multi-monitor GUI positioning
 - [ ] Validate settings persistence
 - [ ] Test API key validation and caching
+- [ ] Test Humanizer mode specifically for natural language conversion
 
 #### **Test Scenarios**
 - **Different text types**: Emails, documents, code comments
@@ -183,6 +184,5 @@ Contributors are recognized in:
 3. **Pick an issue** or propose a new feature
 4. **Start coding** following our guidelines
 5. **Submit your PR** and await review
-
 
 **Thank you for helping make Sayf AI Text Fixer better for everyone! 🎉**
