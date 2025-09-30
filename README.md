@@ -16,29 +16,30 @@
 
 
 ### Multi-Mode AI Text Processing
-![Demo GIF](https://i.giphy.com/bG7bCw1k1wJUY9OtDY.webp)
+<img src="https://i.giphy.com/bG7bCw1k1wJUY9OtDY.webp" alt="Demo GIF" style="width: 100%; height: auto; max-width: 600px;">
 
 ### Language-Specific Demos
-![English Demo 1](https://i.giphy.com/REeVvRkVDFezA8r0Rr.webp)
-![English Demo 2](https://i.giphy.com/gI1fhmSdiaQvymHnfI.webp)
-![Arabic Demo](https://i.giphy.com/DjuPvo1hxQLuUI1TMo.webp)
+<img src="https://i.giphy.com/REeVvRkVDFezA8r0Rr.webp" alt="English Demo 1" style="width: 100%; height: auto; max-width: 600px;">
+<img src="https://i.giphy.com/gI1fhmSdiaQvymHnfI.webp" alt="English Demo 2" style="width: 100%; height: auto; max-width: 600px;">
+<img src="https://i.giphy.com/DjuPvo1hxQLuUI1TMo.webp" alt="Arabic Demo" style="width: 100%; height: auto; max-width: 600px;">
 
 ### Promter Mode
-![Promter Mode](https://i.giphy.com/xwnmKY71kcSrSb5TWo.webp)
+<img src="https://i.giphy.com/xwnmKY71kcSrSb5TWo.webp" alt="Promter Mode" style="width: 100%; height: auto; max-width: 600px;">
 
 ### Humanizer Mode
-<div style="display: flex; justify-content: space-between; gap: 10px;">
-  <div style="flex: 1;">
+<div style="display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap;">
+  <div style="flex: 1 1 300px; margin-bottom: 10px;">
     <p><strong>BEFORE (AI-generated text)</strong></p>
-    <img src="https://i.imgur.com/mDNEEA0.jpeg" alt="Before Humanizer Mode" style="width: 100%;">
+    <img src="https://i.imgur.com/mDNEEA0.jpeg" alt="Before Humanizer Mode" style="width: 100%; height: auto;">
   </div>
-  <div style="flex: 1;">
+  <div style="flex: 1 1 300px; margin-bottom: 10px;">
     <p><strong>AFTER (Humanized text)</strong></p>
-    <img src="https://i.imgur.com/s6mEVUo.jpeg" alt="After Humanizer Mode" style="width: 100%;">
+    <img src="https://i.imgur.com/s6mEVUo.jpeg" alt="After Humanizer Mode" style="width: 100%; height: auto;">
   </div>
 </div>
 
 **🚀 Ready to get started?** [Jump to Installation Guide](#-installation)
+
 
 ---
 
