@@ -138,9 +138,9 @@
 - 🔒 **Security Improvements** → Enhanced HTTPS validation with detailed error reporting
 
 ### **v4.0.8 (Major Feature Expansion)** 🆕
-- 🚀 **19 AI Processing Modes** → Expanded from 8 to 19 total modes (+125% increase)
+- 🚀 **19 AI Processing Modes** → Expanded from 8 to 18 total modes (+125% increase)
 - 🤖 **Enhanced Answer Mode** → Mixed language support with Classical Arabic enforcement
-- 💬 **Mode-Specific Feedback System** → Contextual messages for all 19 modes in English/Arabic
+- 💬 **Mode-Specific Feedback System** → Contextual messages for all 18 modes in English/Arabic
 - ✏️ **Advanced Rewrite Mode** → Sophisticated text restructuring with format preservation
 - 🎯 **All Modes Enabled by Default** → Optimal out-of-the-box experience
 - 📝 **10 New Specialized Modes** → Rewrite, Prompter, Formalize, Casual, Email, Bullets, Focus, Technical, Creative, Academic
