@@ -41,7 +41,7 @@ body:
       label: 📂 Feature Category
       description: What type of feature is this?
       options:
-        - New AI Processing Mode (beyond current 18 modes)
+        - New AI Processing Mode (beyond current 19 modes)
         - Enhancement to Existing Mode
         - User Interface/UX Enhancement
         - Language/Localization Support
@@ -120,6 +120,7 @@ body:
           • Email, Bullets modes
           • Focus, Technical modes
           • Creative, Academic modes
+          • Humanizer mode
 
   - type: textarea
     id: implementation
