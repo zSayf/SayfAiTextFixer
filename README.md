@@ -1,4 +1,4 @@
-# 🅰 Sayf AI Text Fixer v4.0.8
+# 🅰 Sayf AI Text Fixer v4.6.0
 
 [![AutoHotkey v2](https://img.shields.io/badge/AutoHotkey-v2.0%2B-blue.svg)](https://www.autohotkey.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -21,7 +21,6 @@
 ### Language-Specific Demos
 <img src="https://i.giphy.com/REeVvRkVDFezA8r0Rr.webp" alt="English Demo 1" style="width: 100%; height: auto; max-width: 600px;">
 <img src="https://i.giphy.com/gI1fhmSdiaQvymHnfI.webp" alt="English Demo 2" style="width: 100%; height: auto; max-width: 600px;">
-<img src="https://i.giphy.com/DjuPvo1hxQLuUI1TMo.webp" alt="Arabic Demo" style="width: 100%; height: auto; max-width: 600px;">
 
 ### Promter Mode
 <img src="https://i.giphy.com/xwnmKY71kcSrSb5TWo.webp" alt="Promter Mode" style="width: 100%; height: auto; max-width: 600px;">
@@ -103,7 +102,7 @@
 
 ---
 
-## 📈 **Evolution Timeline: v1.5.0 → v4.5.0**
+## 📈 **Evolution Timeline: v1.5.0 → v4.6.0**
 
 ### **v1.5.0 (Initial Release)**
 - ✅ Basic text correction
@@ -146,6 +145,14 @@
 - 📝 **10 New Specialized Modes** → Rewrite, Prompter, Formalize, Casual, Email, Bullets, Focus, Technical, Creative, Academic
 - 🌍 **Classical Arabic Support** → Enhanced Arabic processing with proper فصحى enforcement
 - 🏗️ **Enhanced Architecture** → 3 new functions, 867 new lines of code (+14% growth)
+
+### **v4.6.0 (API Upgrade & Model Optimization)** 🆕
+- 🤖 **Gemini 3 Flash Preview** → Added latest frontier-class flash model
+- 🔧 **Fixed API JSON Payload** → Properly formatted JSON with quoted property names
+- 🗑️ **Removed Gemini 3 Pro** → Eliminated rate-limited preview model
+- 🚀 **Updated API Endpoint** → Migrated to `generateContent` endpoint
+- 🔑 **Header Authentication** → New `x-goog-api-key` header-based auth
+- 🛡️ **Fixed Global Variables** → Resolved startup initialization errors
 
 ### **v4.5.0 (Humanizer Mode & Performance Enhancements)** 🆕
 - 👤 **Humanizer Mode** → Convert text to natural, human-like language
@@ -240,8 +247,10 @@ All configuration and logs are stored in your user profile:
 ## 🤖 **AI Models & Technology**
 
 ### **Supported AI Models**
-- **Gemini 2.5 Flash** → Ultra-fast processing for quick corrections
-- **Gemini 2.5 Pro** → Maximum accuracy for complex text analysis
+- **Gemini 3 Flash Preview** → Frontier-class performance at lower cost
+- **Gemini 2.5 Flash** → Stable fast processing for quick corrections
+- **Gemini 2.5 Flash-Lite** → Lightweight cost-effective processing
+- **gemini-flash-latest** → Auto-updating alias to latest flash model
 
 ### **Language Capabilities**
 - **English** → Native processing with advanced grammar rules
