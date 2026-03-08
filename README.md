@@ -1,4 +1,4 @@
-# 🅰 Sayf AI Text Fixer v4.6.0
+# 🅰 Sayf AI Text Fixer v5.2.0
 
 [![AutoHotkey v2](https://img.shields.io/badge/AutoHotkey-v2.0%2B-blue.svg)](https://www.autohotkey.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/zSayf/SayfAiTextFixer.svg)](https://github.com/zSayf/SayfAiTextFixer/stargazers)
 
 > **🌟 AI-Powered Text Enhancement Tool**  
-> ✨ Professional bilingual text processing with **19 AI modes** for English & Arabic ✨
+> ✨ Professional bilingual text processing with **20 AI modes** for English & Arabic ✨
 
 ---
 
@@ -21,6 +21,7 @@
 ### Language-Specific Demos
 <img src="https://i.giphy.com/REeVvRkVDFezA8r0Rr.webp" alt="English Demo 1" style="width: 100%; height: auto; max-width: 600px;">
 <img src="https://i.giphy.com/gI1fhmSdiaQvymHnfI.webp" alt="English Demo 2" style="width: 100%; height: auto; max-width: 600px;">
+<img src="https://i.giphy.com/DjuPvo1hxQLuUI1TMo.webp" alt="Arabic Demo" style="width: 100%; height: auto; max-width: 600px;">
 
 ### Promter Mode
 <img src="https://i.giphy.com/xwnmKY71kcSrSb5TWo.webp" alt="Promter Mode" style="width: 100%; height: auto; max-width: 600px;">
@@ -44,7 +45,7 @@
 
 ## 🚀 What is Sayf AI Text Fixer?
 
-**Sayf AI Text Fixer** is a professional desktop automation tool that brings AI-powered text enhancement to **any Windows application**. With **19 specialized AI processing modes**, enhanced validation systems, mode-specific feedback, and advanced Windows integration, it transforms how you work with text across your entire system.
+**Sayf AI Text Fixer** is a professional desktop automation tool that brings AI-powered text enhancement to **any Windows application**. With **20 specialized AI processing modes**, enhanced validation systems, mode-specific feedback, and advanced Windows integration, it transforms how you work with text across your entire system.
 
 ### 🎯 Perfect For
 - **📚 Students** writing essays, reports, and academic papers
@@ -56,7 +57,7 @@
 
 ## ✨ Core Features
 
-### 🎛️ **19 Professional AI Processing Modes**
+### 🎛️ **20 Professional AI Processing Modes**
 | Mode | Function | Perfect For |
 |------|----------|-------------|
 | 📝 **Fix** | Grammar & spelling correction | Quick proofreading |
@@ -78,8 +79,9 @@
 | 🎨 **Creative** | Creative writing improvement | Content creation |
 | 🎓 **Academic** | Academic writing standards | Research papers |
 | 👤 **Humanizer** | Convert text to natural, human-like language | Making AI-generated content more natural |
+| 📄 **Academic Humanizer** | IEEE-grade undetectable rewriter for research papers | Bypassing Turnitin & GPTZero |
 
-![19 Professional AI Processing Modes](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/refs/heads/main/Screenshot.png)
+![20 Professional AI Processing Modes](https://raw.githubusercontent.com/zSayf/SayfAiTextFixer/refs/heads/main/Screenshot.png)
 
 ### 🏗️ **Advanced Features**
 - **🔐 Enhanced API Validation** → Real-time validation with persistent caching and case-sensitive checks
@@ -89,9 +91,12 @@
 - **🛡️ Self-Healing Configuration** → Automatically repairs corrupted settings
 - **🔒 Enhanced Security** → Injection-proof prompts, persistent API validation
 - **🎨 Dynamic UI System** → Real-time status feedback and visual mode editor
-- **💬 Mode-Specific Feedback** → Contextual processing and success messages for all 19 modes
+- **💬 Mode-Specific Feedback** → Contextual processing and success messages for all 20 modes
 - **🔧 Critical Stability** → HttpRequestManager parameter order bug resolution (v3.1.0)
 - **📈 Enhanced Debugging** → Comprehensive parameter validation and error prevention
+- **🎛️ Redesigned Settings Dialog** → Two-panel layout with hover tooltips for modes (v5.0.0)
+- **✏️ Custom Prompts Editor** → Per-mode AI prompt customization (v5.0.0)
+- **🔄 Refresh Model List** → Dynamic model registry from Gemini API (v5.0.0)
 
 ### ⚡ **Performance & Reliability**
 - **📱 Universal Compatibility** → Works across all Windows applications
@@ -102,7 +107,7 @@
 
 ---
 
-## 📈 **Evolution Timeline: v1.5.0 → v4.6.0**
+## 📈 **Evolution Timeline: v1.5.0 → v5.2.0**
 
 ### **v1.5.0 (Initial Release)**
 - ✅ Basic text correction
@@ -154,11 +159,38 @@
 - 🔑 **Header Authentication** → New `x-goog-api-key` header-based auth
 - 🛡️ **Fixed Global Variables** → Resolved startup initialization errors
 
-### **v4.5.0 (Humanizer Mode & Performance Enhancements)** 🆕
-- 👤 **Humanizer Mode** → Convert text to natural, human-like language
-- ⚡ **Performance Improvements** → Up to 25% faster processing times
-- 🛡️ **Enhanced Stability** → Better error handling and recovery mechanisms
-- 🔧 **Bug Fixes** → Resolved 12 reported issues from v4.0.8
+### **v4.7.0 (Gemini 3.1 Series)** 🆕
+- 🤖 **Gemini 3.1 Pro Preview** → Latest Pro with complex reasoning
+- ⚡ **Gemini 3.1 Flash-Lite** → Cost-efficient high-volume model
+- 🧠 **Thinking Configuration** → Support for Gemini 3 thinking features
+
+### **v4.8.0 (WinHTTP-Only Architecture)** 🆕
+- 🚀 **WinHTTP-Only HTTP Layer** → Removed XMLHTTP, ServerXMLHTTP, PowerShell fallbacks
+- ⚡ **Performance Improvement** → Faster, more reliable HTTP requests
+- 🧹 **Code Simplification** → Cleaner single-method implementation
+
+### **v4.9.1 (Auto-Fallback)** 🆕
+- 🔄 **Auto-Fallback on Errors** → Graceful degradation on 503/502/504/timeout
+- 🛡️ **Preview Model Resilience** → Automatic fallback to stable models
+
+### **v4.9.2 (API Compliance)** 🆕
+- 🔧 **Thinking Level Fix** → Correct `thinkingLevel` per model (API compliance)
+
+### **v5.0.0 (Context Caching & Smart Fallback)** 🆕
+- �️ **Gemini Context Caching** → Reduces API costs for Humanizer mode
+- 🔄 **Smart Fallback Chain** → Pro→Flash→Lite→2.5 automatic degradation
+- 📊 **Cache Registry System** → In-memory cache tracking with TTL
+
+### **v5.1.0 (Academic Humanizer)** 🆕
+- 📄 **Academic Humanizer Mode** → IEEE-grade undetectable rewriter (20th mode)
+- 🎓 **Turnitin & GPTZero Bypass** → Designed for research papers
+- 📝 **Mode Descriptions** → Detailed tooltips for all 20 modes
+
+### **v5.2.0 (Tier-Based Fallback & Proxy Support)** 🆕
+- � **Dynamic Tier-Based Fallback** → Intelligent model selection by capability
+- 🌐 **System Proxy Support** → Automatic detection for enterprise environments
+- 📊 **JSON Error Logging** → Structured error format for log viewer
+- 🚀 **HTTP Retry Logic** → Exponential backoff for transient errors
 
 
 ---
@@ -202,14 +234,14 @@
 ### ⌨️ **Primary Hotkeys**
 | Hotkey | Function | Description |
 |--------|----------|-------------|
-| **`Ctrl+Alt+S`** | **Smart Text Processing** | Opens mode selection for selected text (19 modes) |
+| **`Ctrl+Alt+S`** | **Smart Text Processing** | Opens mode selection for selected text (20 modes) |
 | **`Ctrl+Alt+D`** | **Professional Log Viewer** | View processing history and analytics |
 | **`Ctrl+Alt+M`** | **Advanced Settings** | Configure API, modes, and preferences |
 | **`Esc`** | **Hide Tooltips** | Dismiss any active tooltip displays |
 
 ### 🎛️ **Basic Workflow**
 1. **Select text** in any application (Word, browser, email, etc.)
-2. **Press `Ctrl+Alt+S`** to open mode selection with 18 options
+2. **Press `Ctrl+Alt+S`** to open mode selection with 20 options
 3. **Choose processing mode** (Fix, Improve, Rewrite, Email, Academic, etc.)
 4. **Wait for AI processing** (visual feedback via tray icon with mode-specific messages)
 5. **Review results** as text is automatically replaced
@@ -236,7 +268,7 @@ All configuration and logs are stored in your user profile:
 ```
 
 ### ⚙️ **Advanced Configuration**
-- **🎛️ AI Mode Management** → Enable/disable specific processing modes (all 19 modes enabled by default)
+- **🎛️ AI Mode Management** → Enable/disable specific processing modes (all 20 modes enabled by default)
 - **🚀 Auto-Startup** → Configure Windows startup integration
 - **📊 Logging Preferences** → Set log rotation and detail levels
 - **🌐 Language Settings** → Configure English/Arabic/Auto-detection
@@ -247,6 +279,8 @@ All configuration and logs are stored in your user profile:
 ## 🤖 **AI Models & Technology**
 
 ### **Supported AI Models**
+- **Gemini 3.1 Pro Preview** → Latest Pro with complex reasoning and thinking support
+- **Gemini 3.1 Flash-Lite Preview** → Cost-efficient high-volume model
 - **Gemini 3 Flash Preview** → Frontier-class performance at lower cost
 - **Gemini 2.5 Flash** → Stable fast processing for quick corrections
 - **Gemini 2.5 Flash-Lite** → Lightweight cost-effective processing
@@ -300,6 +334,7 @@ All configuration and logs are stored in your user profile:
 - **🎨 Creative** → Creative enhancement 🆕
 - **🤖 Prompter** → AI prompt optimization 🆕
 - **👤 Humanizer** → Convert text to natural, human-like language 🆕
+- **📄 Academic Humanizer** → IEEE-grade undetectable rewriter for research papers 🆕 v5.1.0
 
 ---
 
@@ -322,7 +357,7 @@ All configuration and logs are stored in your user profile:
 
 #### **Processing mode not appearing**
 - **Solution**: Press `Ctrl+Alt+M` → Enable desired modes in Mode Editor
-- **Default**: All 19 modes are enabled by default in v4.5.0
+- **Default**: All 20 modes are enabled by default in v5.2.0
 
 #### **Auto-startup not working**
 - **Solution**: Run application as administrator once to register startup
@@ -401,4 +436,4 @@ Free to use, modify, and distribute. See [LICENSE](LICENSE) file for complete te
 
 ---
 
-**🎉 Transform your text processing experience with professional AI-powered enhancement featuring 19 specialized modes. Download the latest release and join users already improving their writing with enhanced bilingual support and mode-specific feedback!**
+**🎉 Transform your text processing experience with professional AI-powered enhancement featuring 20 specialized modes. Download the latest release and join users already improving their writing with enhanced bilingual support, context caching, smart fallback, and mode-specific feedback!**
